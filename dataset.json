@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that extracts the AWS account ID from an ARN string"
+    "task": "Parse an AWS CloudFormation template and extract all resource logical IDs",
+    "format": "python"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to an S3 bucket"
+    "task": "Validate an AWS IAM policy JSON structure and check for required fields like Version, Statement, Effect, and Action",
+    "format": "json"
   },
   {
-    "task": "Write a regular expression that matches valid AWS S3 bucket names (3-63 characters, lowercase letters, numbers, hyphens)"
+    "task": "Extract AWS EC2 instance IDs from CloudWatch log entries using a pattern like 'i-0123456789abcdef0'",
+    "format": "regex"
   }
 ]
