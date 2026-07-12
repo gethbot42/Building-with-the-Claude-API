@@ -1,17 +1,49 @@
 [
   {
-    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message. The log format is: '[TIMESTAMP] [LEVEL] MESSAGE'",
-    "format": "regex",
-    "solution_criteria": "The regex should correctly capture three groups: timestamp (ISO 8601 format), log level (DEBUG, INFO, WARN, ERROR), and the message text. It should handle multi-word messages."
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate intake and strategic meal timing around a 90-minute morning run",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre/post-workout nutrition",
+      "Carbohydrates comprise 60-65% of total daily calories",
+      "Pre-run meal provided 60-90 minutes before training; post-run meal within 30-45 minutes",
+      "All meals respect vegetarian and nut-free dietary restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions"
   },
   {
-    "task": "Create a Python function that takes an AWS S3 bucket name and file key, then returns a pre-signed URL valid for 1 hour using boto3",
-    "format": "python",
-    "solution_criteria": "The function should accept bucket name and key as parameters, use boto3 S3 client's generate_presigned_url method with ExpiresIn set to 3600 seconds, and return the URL string."
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "75 kg",
+      "goal": "Recovery and performance optimization for competitive swimming with early morning training (6 AM) and afternoon practice (4 PM)",
+      "restrictions": "No shellfish allergy"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre/post-workout nutrition for two training sessions",
+      "Includes adequate hydration strategy and electrolyte replenishment for swimmer recovery",
+      "Caloric and macronutrient distribution supports early morning training and afternoon endurance work"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (swimmer) with early morning training, recovery nutrition needs, and hydration considerations throughout the day"
   },
   {
-    "task": "Generate a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for a database connection string and log level",
-    "format": "json",
-    "solution_criteria": "The JSON should include proper Lambda function structure with event source mappings for S3, environment variables section containing database connection and log level keys, and appropriate AWS resource references."
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "95 kg",
+      "goal": "Maximize strength gains with high protein intake; gym session 2-4 PM",
+      "restrictions": "Pescetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 4-5 meals spaced appropriately around the 2-4 PM gym session",
+      "Total daily protein meets minimum 1.8g per kg bodyweight (171g+)",
+      "All meals align with pescetarian and dairy-free restrictions",
+      "Plan is presented in compact, easy-to-read 1-day format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-based athlete (powerlifter) with specific protein requirements and meal spacing constraints due to gym schedule"
   }
 ]

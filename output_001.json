@@ -1,0 +1,64 @@
+[
+  {
+    "output": "# Marathon Training Nutrition Plan\n\n## Daily Macros (Estimate)\n- **Carbs**: 55-60% (~420-480g) \u2013 essential for marathon training\n- **Protein**: 15-20% (~100-120g) \u2013 vegetarian sources\n- **Fat**: 20-25% (~50-65g)\n\n## Pre-Run (90-min morning run)\n**30-45 min before:**\n- Banana + 1-2 tbsp peanut butter alternative (tahini)\n- Or: Toast with jam + small glass of juice\n- *Small, easily digestible carbs + minimal protein/fat*\n\n## Post-Run (within 30-60 min)\n**Priority: Carbs + Protein**\n- Oatmeal with berries + Greek yogurt\n- Chickpea pasta with tomato sauce + vegetables\n- Smoothie: banana, oats, plant-based protein powder, berries, milk\n\n## Main Meals (Vegetarian)\n\n**Breakfast (non-run days):** Oatmeal, eggs, whole grain toast, fruit\n\n**Lunch:** Lentil soup, quinoa bowls, bean-based dishes, hummus wraps\n\n**Dinner:** Tofu/tempeh stir-fry with rice, lentil curry, bean chili\n\n## Carb Sources (Priority)\n- Oats, brown rice, whole grain bread, quinoa, sweet potatoes\n- Legumes (lentils, chickpeas, beans)\n- Fruits and dried fruit\n\n## Protein Sources\n- Greek yogurt, cottage cheese, eggs (if eating)\n- Tofu, tempeh, lentils, chickpeas, beans, seeds (sunflower, pumpkin)\n- Plant-based protein powder\n\n## Hydration\n- 3-4L water daily + electrolytes on long run days\n\n**Consider consulting a sports dietitian** for personalized macros based on weekly mileage.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with high carbohydrate intake and strategic meal timing around a 90-minute morning run",
+        "restrictions": "Vegetarian, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus pre/post-workout nutrition",
+        "Carbohydrates comprise 60-65% of total daily calories",
+        "Pre-run meal provided 60-90 minutes before training; post-run meal within 30-45 minutes",
+        "All meals respect vegetarian and nut-free dietary restrictions"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions"
+    },
+    "score": 2,
+    "reasoning": "The solution fails to meet all three mandatory requirements: (1) no daily caloric total is provided, (2) no specific meal plan with exact foods, portions, and timing is included (only general categories and options are given), and (3) macronutrient breakdown lacks specificity regarding actual daily totals. While the solution demonstrates good understanding of vegetarian/nut-free restrictions and provides helpful guidance on pre/post-workout nutrition, it reads as a general framework rather than a concrete 1-day meal plan. The task explicitly requests a 'compact, concise 1 day meal plan' with specific meals, but the solution provides templates and suggestions instead. This is a fundamental failure to deliver the requested output format."
+  },
+  {
+    "output": "# Nutrition Plan for Strength Gains\n\n## Daily Calorie & Macro Targets\n- **Calories**: ~2,800-3,000/day (slight surplus for muscle gain)\n- **Protein**: 190-210g/day (2.0-2.2g per kg bodyweight)\n- **Carbs**: 300-350g/day (fuel for training)\n- **Fats**: 85-95g/day (hormonal health)\n\n## Protein Sources (Pescatarian)\n- **Fish**: salmon, tuna, mackerel, cod (25-30g protein per 100g)\n- **Shellfish**: shrimp, scallops, mussels (20-25g protein per 100g)\n- **Plant-based**: lentils, chickpeas, tofu, tempeh (15-25g per serving)\n- **Eggs** (if acceptable): 6-8g protein each\n- **Legume/grain combos**: rice + beans, quinoa (complete amino acids)\n\n## Pre-Workout (1-2 hours before 2 PM session)\n- Banana + almond butter\n- Oats + berries + plant-based protein powder\n- Toast + avocado + tomato\n\n## Post-Workout (within 2 hours)\n- Grilled fish (150g) + sweet potato + broccoli\n- Tofu stir-fry with rice\n- Protein shake (plant-based powder) + fruit + oats\n\n## Daily Meal Example\n1. **Breakfast**: Oats, seeds, berries, plant-based milk\n2. **Lunch**: Lentil soup with salmon\n3. **Pre-workout snack**: Banana + nuts\n4. **Post-workout**: Fish + carbs + veg\n5. **Dinner**: Shrimp/tofu curry with quinoa\n\n**Consider**: Plant-based protein powder supplement to hit protein targets consistently.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "95 kg",
+        "goal": "Maximize strength gains with high protein intake; gym session 2-4 PM",
+        "restrictions": "Pescetarian, no dairy"
+      },
+      "solution_criteria": [
+        "Meal plan contains exactly 4-5 meals spaced appropriately around the 2-4 PM gym session",
+        "Total daily protein meets minimum 1.8g per kg bodyweight (171g+)",
+        "All meals align with pescetarian and dairy-free restrictions",
+        "Plan is presented in compact, easy-to-read 1-day format"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength-based athlete (powerlifter) with specific protein requirements and meal spacing constraints due to gym schedule"
+    },
+    "score": 3,
+    "reasoning": "The solution violates all three mandatory requirements. While it provides excellent macro targets and correctly identifies appropriate foods, it fails to deliver the core requirement: a specific 1-day meal plan with exact foods, portions, and timing. The solution reads as general guidance rather than a concrete meal plan. It provides meal examples and categories but not an actual daily schedule with specific quantities that can be tracked against the stated caloric and macronutrient targets. The 'Daily Meal Example' section lists 5 meals but without portions, exact timing, or nutritional calculations. A compliant solution would show something like: 'Breakfast (7 AM): 80g oats + 30g seeds + 200ml plant-based milk + 100g berries = 450 cal, 15g protein...' with a complete daily total."
+  },
+  {
+    "output": "# Nutrition Plan for Competitive Swimmer\n\n## Daily Calorie Target\n**~3,000-3,500 kcal** (adjust based on training intensity and weight changes)\n\n---\n\n## Meal Structure\n\n### **Pre-6 AM Training** (4:30-5:30 AM)\n*Light, easily digestible*\n- Toast with honey + banana\n- OR oatmeal with berries\n- Small coffee/tea\n- **Goal:** Quick carbs, minimal digestion issues\n\n### **Post-Morning Training** (7:00-8:00 AM)\n*Rapid recovery window*\n- Protein smoothie: Greek yogurt, berries, protein powder, oats\n- OR eggs (2-3) + whole grain toast + orange juice\n- **Ratio:** 30-40g protein + 60-80g carbs\n\n### **Mid-Morning Snack** (10:00 AM)\n- Apple + almond butter\n- OR Greek yogurt + granola\n- **Purpose:** Energy bridge to lunch\n\n### **Lunch** (12:00-1:00 PM)\n*Balanced, substantial*\n- Grilled salmon/chicken (150g) + rice (200g) + vegetables\n- OR pasta with lean ground turkey + tomato sauce\n- **Ratio:** 35-40g protein + 70-80g carbs + healthy fats\n\n### **Pre-4 PM Training** (3:00-3:30 PM)\n*Light carbs*\n- Banana + small handful of nuts\n- OR rice cakes with jam\n- **Goal:** Energy without fullness\n\n### **Post-Afternoon Training** (5:30-6:30 PM)\n*Recovery meal*\n- Lean beef/fish (150g) + sweet potato + broccoli\n- OR chicken + quinoa + mixed vegetables\n- **Ratio:** 35-40g protein + 60-70g carbs\n\n### **Evening Snack** (8:00 PM, if needed)\n- Cottage cheese + berries\n- OR casein protein shake\n- **Purpose:** Overnight protein availability\n\n---\n\n## Priority Foods\n\n| Protein | Carbs | Fats | Vegetables |\n|---------|-------|------|-----------|\n| Salmon | Rice | Olive oil | Broccoli |\n| Chicken | Pasta | Avocado | Sweet potato |\n| Eggs | Oats | Nuts | Spinach |\n| Greek yogurt | Banana | Nut butters | Peppers |\n| Lean beef | Potatoes | Fatty fish | Carrots |\n\n---\n\n## Hydration\n- **During training:** 500-750 mL per hour\n- **Daily:** 3-4L minimum (more on heavy training days)\n- Consider **sports drink** (6-8% carbs) for sessions >60 min\n\n---\n\n## Key Principles\n\u2713 Protein at every meal (recovery)  \n\u2713 Carbs around training (performance + recovery)  \n\u2713 Eat within 30-60 min of finishing training  \n\u2713 Consistent meal timing despite early start  \n\u2713 Iron-rich foods (swimming depletes iron)  \n\nWould you like specific meal prep ideas or recipes?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "75 kg",
+        "goal": "Recovery and performance optimization for competitive swimming with early morning training (6 AM) and afternoon practice (4 PM)",
+        "restrictions": "No shellfish allergy"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus pre/post-workout nutrition for two training sessions",
+        "Includes adequate hydration strategy and electrolyte replenishment for swimmer recovery",
+        "Caloric and macronutrient distribution supports early morning training and afternoon endurance work"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport-specific athlete (swimmer) with early morning training, recovery nutrition needs, and hydration considerations throughout the day"
+    },
+    "score": 3,
+    "reasoning": "The solution violates all three MANDATORY requirements: (1) Daily caloric total is stated as a range (3,000-3,500 kcal) without a specific target or verification that meals achieve this; (2) Macronutrient breakdown is absent\u2014only individual meal ratios are provided, not daily totals in grams; (3) Meals lack exact foods with precise portions and timing (e.g., 'banana' without weight, 'small coffee' without volume). While the structure is sound and addresses the secondary criteria well (covers all meals, includes hydration, strategic timing around two sessions), the failure to provide concrete numerical specifications for calories, macros, and portions means the plan cannot be implemented with confidence or verified for adequacy. The solution reads as a template rather than a complete 1-day meal plan."
+  }
+]
